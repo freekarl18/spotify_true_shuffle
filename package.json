@@ -1,0 +1,24 @@
+{
+  "author": "[go]",
+  "repository": "https://github.com/gordody/spotify-playlist-shuffle",
+  "name": "spotify-playlist-shuffle",
+  "description": "Rearrange Spotify playlists",
+  "version": "0.0.7",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "1.3.2",
+    "express": "~4.0.0",
+    "querystring": "~0.2.0",
+    "request": "~2.34.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "handlebars": "^4.0.12",
+    "just-handlebars-helpers": "^1.0.14",
+    "spotify-web-api-js": "^0.22.1"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "compile-handlebars": "handlebars src/handlebars_templates/ -f public/handlebars_out/templates.js"
+  }
+}
